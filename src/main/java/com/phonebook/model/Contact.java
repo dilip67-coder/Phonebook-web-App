@@ -16,7 +16,7 @@ public class Contact {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private String contact_Name;
-	private String contact_Email;
-	private long contact_Num;
+	private String contactName;
+	private String contactEmail;
+	private long contactNum;  
 }

@@ -34,4 +34,9 @@ public class ServiceImpl{
 		return contactRepo.findById(contactId); 
 	}
 
+	public Contact updateContact(Contact contact) {
+		
+		return contactRepo.save(contact);
+	}
+
 }
